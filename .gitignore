@@ -44,7 +44,7 @@ tmp/*   # ignore Rails cache files
 !/log/.keep
 !/tmp/.keep
 
-/node_modules
+/ba-app/node_modules
 /yarn-error.log
 
 .byebug_history
