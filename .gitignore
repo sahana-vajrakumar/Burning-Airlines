@@ -38,12 +38,10 @@ Temporary Items
 # Ignore all logfiles and tempfiles.
 /log/*
 /ba-server/tmp/*
-
-tmp/*   # ignore Rails cache files
-
+tmp/*
 !/log/.keep
 !/tmp/.keep
-
+/node_modules
 /ba-app/node_modules
 /yarn-error.log
 
