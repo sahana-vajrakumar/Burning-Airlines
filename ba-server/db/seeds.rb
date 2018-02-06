@@ -19,6 +19,7 @@ Flight.destroy_all
 f1 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'LAX', date: '06/02/2018'
 f2 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'LAX', date: '06/02/2018'
 f3 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'LAX', date: '06/02/2018'
+f4 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'LAX', date: '06/02/2018'
 
 puts "Created #{ Flight.all.length } flights."
 
@@ -31,10 +32,12 @@ u3 = User.create name:'Joel', email: 'joel@ga.com', password: 'chicken'
 puts "Created #{ User.all.length } users."
 
 Reservation.destroy_all
-r1 = Reservation.create row:10, column:'A'
-r2 = Reservation.create row:20, column:'B'
-r3 = Reservation.create row:30, column:'C'
-r4 = Reservation.create row:30, column:'D'
+r1 = Reservation.create seat_row:10, seat_column:'A'
+r2 = Reservation.create seat_row:20, seat_column:'B'
+r3 = Reservation.create seat_row:30, seat_column:'C'
+r4 = Reservation.create seat_row:30, seat_column:'D'
+r5 = Reservation.create seat_row:20, seat_column:'A'
+r6 = Reservation.create seat_row:10, seat_column:'B'
 
 
 puts "Created #{ Reservation.all.length } reservations."
@@ -47,3 +50,9 @@ a1.flights << f3
 u1.reservations << r1
 u2.reservations << r2
 u3.reservations << r3 << r4
+
+
+f1.reservations << r1 << r2
+f2.reservations << r3
+f3.reservations << r4
+f4.reservations << r5
