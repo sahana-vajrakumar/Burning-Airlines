@@ -19,8 +19,8 @@ Flight.destroy_all
 f1 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'LAX', date: '06/02/2018'
 f2 = Flight.create flight_no:'123ABC', origin: 'MEL', destination: 'SYD', date: '06/02/2018'
 f3 = Flight.create flight_no:'123ABC', origin: 'SYD', destination: 'MEL', date: '06/02/2018'
-f3 = Flight.create flight_no:'A2G126', origin: 'SYD', destination: 'MEL', date: '05/03/2018'
-f4 = Flight.create flight_no:'123ABC', origin: 'ABA', destination: 'BCD', date: '06/02/2018'
+f4 = Flight.create flight_no:'A2G126', origin: 'SYD', destination: 'MEL', date: '05/03/2018'
+f5= Flight.create flight_no:'123ABC', origin: 'ABA', destination: 'BCD', date: '06/02/2018'
 
 puts "Created #{ Flight.all.length } flights."
 

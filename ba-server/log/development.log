@@ -1971,3 +1971,1475 @@ Processing by FlightsController#index as JSON
 Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-02-07 12:40:34 +1100
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:38 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:40 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:41 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:41 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:42 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:42 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:43 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:43 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:43 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:44 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:48:44 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:54:54 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:54:54 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:55:08 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:57:02 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:59:54 +1100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:59:55 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+  ^):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/flights_controller.rb:1:in `<top (required)>'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 13:01:25 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.6ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (25.4ms)
+Completed 200 OK in 49ms (Views: 33.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 13:01:35 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (11.3ms)
+Completed 200 OK in 31ms (Views: 25.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 13:01:35 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.9ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (10.1ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 13:01:53 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (16.1ms)
+Completed 200 OK in 28ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for 127.0.0.1 at 2018-02-07 13:01:56 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/accounts"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.2) lib/rack/cors.rb:97:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.2) lib/puma/configuration.rb:225:in `call'
+puma (3.11.2) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.2) lib/puma/server.rb:438:in `process_client'
+puma (3.11.2) lib/puma/server.rb:302:in `block in run'
+puma (3.11.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/airplanes.json" for 127.0.0.1 at 2018-02-07 13:02:04 +1100
+Processing by AirplanesController#index as JSON
+  Rendering airplanes/index.json.jbuilder
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  Rendered airplanes/_airplane.json.jbuilder (0.7ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/_airplane.json.jbuilder (0.3ms)
+  Rendered airplanes/index.json.jbuilder (12.5ms)
+Completed 200 OK in 28ms (Views: 19.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:13:23 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (9.2ms)
+Completed 200 OK in 19ms (Views: 16.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:14:28 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.2ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:14:58 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.9ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:16:45 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.5ms)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mFlight Load (2.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mFlight Load (1.3ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:19:46 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (9.3ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:22:28 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (9.0ms)
+Completed 200 OK in 19ms (Views: 16.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mFlight Load (1.5ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:23:42 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.7ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:24:21 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.0ms)
+Completed 200 OK in 18ms (Views: 15.3ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:28:11 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.9ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:31:06 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (3.9ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (11.7ms)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:31:09 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.8ms)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:31:11 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (9.5ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:31:17 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.4ms)
+Completed 200 OK in 18ms (Views: 16.0ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" ORDER BY "flights"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:34:15 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.9ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (9.3ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 14:37:08 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 127.0.0.1 at 2018-02-07 14:37:13 +1100
+Processing by Rails::InfoController#routes as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [32 times] (8.9ms)
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/actionpack-5.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/info/routes.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 36ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 14:39:26 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (9.4ms)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:39:31 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 813ms (Views: 805.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:43:09 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:43:11 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights/21" for 127.0.0.1 at 2018-02-07 14:44:07 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering flights/show.html.erb within layouts/application
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/show.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 51ms (Views: 45.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights/21" for 127.0.0.1 at 2018-02-07 14:44:15 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering flights/show.html.erb within layouts/application
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 37.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:45:52 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (9.2ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:           <td><%= flight.airplane.name %></td>
+    26:         <td><%= link_to 'Show', flight %></td>
+    27:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+    28:         <td><%= link_to 'Destroy', flight, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339672975200'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339672975200'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:49:15 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:           <!-- <td><%= flight.airplane.name %></td> -->
+    26:         <td><%= link_to 'Show', flight %></td>
+    27:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+    28:         <td><%= link_to 'Destroy', flight, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339714407440'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339714407440'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:49:20 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:           <!-- <td><%= flight.airplane.name %></td> -->
+    26:         <td><%= link_to 'Show', flight %></td>
+    27:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+    28:         <td><%= link_to 'Destroy', flight, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339720728000'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339720728000'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:49:26 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:50:02 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:50:22 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (7.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:         <td><%= flight.airplane.name %></td>
+    26: 
+    27:         <td><%= link_to 'Show', flight %></td>
+    28:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339673172960'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339673172960'
+Started PUT "/__web_console/repl_sessions/94c387811fa408ea75cd99bd5121d3f3" for 127.0.0.1 at 2018-02-07 14:50:35 +1100
+Started PUT "/__web_console/repl_sessions/94c387811fa408ea75cd99bd5121d3f3" for 127.0.0.1 at 2018-02-07 14:50:37 +1100
+Started PUT "/__web_console/repl_sessions/94c387811fa408ea75cd99bd5121d3f3" for 127.0.0.1 at 2018-02-07 14:50:42 +1100
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:51:30 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 14:52:03 +1100
+  [1m[36mAirplane Load (0.5ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (616914.2ms)
+Completed 200 OK in 616962ms (Views: 616958.4ms | ActiveRecord: 0.9ms)
+
+
+Processing by FlightsController#index as HTML
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:01:47 +1100
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:01:47 +1100
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (65.0ms)
+Completed 500 Internal Server Error in 108ms (ActiveRecord: 3.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:         <td><%= flight.airplane.name %></td>
+    26: 
+    27:         <td><%= link_to 'Show', flight %></td>
+    28:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+Processing by FlightsController#index as HTML
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (64.5ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 1.8ms)
+
+
+  Rendered flights/index.html.erb within layouts/application (56.2ms)
+  
+Completed 500 Internal Server Error in 117ms (ActiveRecord: 12.4ms)
+
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+  
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:         <td><%= flight.airplane.name %></td>
+    26: 
+    27:         <td><%= link_to 'Show', flight %></td>
+    28:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+  
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:         <td><%= flight.airplane.name %></td>
+    26: 
+    27:         <td><%= link_to 'Show', flight %></td>
+    28:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___1381176870110501548_70339721056100'
+Started GET "/" for 127.0.0.1 at 2018-02-07 15:01:58 +1100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 13ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:02:02 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/index.html.erb within layouts/application (62.1ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 2.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    22:         <td><%= flight.destination %></td>
+    23:         <td><%= flight.date %></td>
+    24:         <td><%= flight.airplane_id %></td>
+    25:         <td><%= flight.airplane.name %></td>
+    26: 
+    27:         <td><%= link_to 'Show', flight %></td>
+    28:         <td><%= link_to 'Edit', edit_flight_path(flight) %></td>
+  
+app/views/flights/index.html.erb:25:in `block in _app_views_flights_index_html_erb___509672896103878318_70131989306160'
+app/views/flights/index.html.erb:18:in `_app_views_flights_index_html_erb___509672896103878318_70131989306160'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:02:19 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 221ms (Views: 218.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:08:06 +1100
+Processing by FlightsController#index as HTML
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 41ms (Views: 30.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:09:10 +1100
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/flights_controller.rb:8: syntax error, unexpected =>, expecting '}'
+lude => {:airplane => :only => :name} 
+                              ^
+/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/controllers/flights_controller.rb:76: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/flights_controller.rb:8: syntax error, unexpected =>, expecting '}'
+app/controllers/flights_controller.rb:76: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 15:09:21 +1100
+Processing by FlightsController#index as HTML
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 49ms (Views: 40.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:10:48 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:16:09 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:17:11 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:17:29 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:18:06 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:18:20 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:58:18 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 15:59:34 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:00:10 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.3ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 5.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:07:24 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:07:59 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:08:39 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:08:48 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:16:25 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:28:48 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:31:18 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:42:22 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:43:23 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:52:10 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:52:11 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:52:13 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:52:43 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:53:34 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 16:56:18 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 17:50:58 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 48ms (Views: 37.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 21:30:40 +1100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 21:30:46 +1100
+Processing by FlightsController#index as HTML
+  [1m[36mFlight Load (0.6ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 2.6ms)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/flights_controller.rb:8:in `index'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 21:31:36 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 264ms (Views: 251.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/flights/21" for 127.0.0.1 at 2018-02-07 21:31:42 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering flights/show.html.erb within layouts/application
+  Rendered flights/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:31:53 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (3.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+ :include => {:airplane => {:only => :name
+            ^):
+  
+app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1807599175828219003_70127322483140'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:32:14 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (2.7ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+ :include => {:airplane => {:only => :name
+            ^):
+  
+app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1807599175828219003_70127306471440'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:32:27 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/index.json.jbuilder (4.0ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+ :include => {:airplane => {:only => :name
+            ^):
+  
+app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1807599175828219003_70127322798440'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:32:52 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (2.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+ :include => {:airplane => {:only => :name
+            ^):
+  
+app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1807599175828219003_70127309023060'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:33:34 +1100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/index.json.jbuilder (14.6ms)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 1.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+ :include => {:airplane => {:only => :name
+            ^):
+  
+app/views/flights/_flight.json.jbuilder:4: syntax error, unexpected =>, expecting keyword_end
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140141209220'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:34:23 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (3.1ms)
+  Rendered flights/index.json.jbuilder (6.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error ({:include=>{:airplane=>{:only=>:name}}} is not a symbol nor a string):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, :include => {:airplane => {:only => :name}}
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140164720920'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140164774240'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:34:45 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (2.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:2: syntax error, unexpected tIDENTIFIER, expecting '}'
+json.url flight_url(flight, format
+    ^):
+  
+app/views/flights/_flight.json.jbuilder:2: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140135669960'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:35:06 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (2.7ms)
+  Rendered flights/index.json.jbuilder (4.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error ({:airplane=>{:only=>:name}} is not a symbol nor a string):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, :airplane => {:only => :name}
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140164222840'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140164257200'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:36:15 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (11.6ms)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:37:09 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (2.9ms)
+  Rendered flights/index.json.jbuilder (5.6ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (You invoked render but did not give any of :partial, :template, :inline, :file, :plain, :html or :body option.):
+    2: json.url flight_url(flight, format: :json)
+    3: 
+    4: 
+    5: render :json => @flights, :include => {:airplane => {:only => :name}}
+  
+app/views/flights/_flight.json.jbuilder:5:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140165928320'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140165979160'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:37:51 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (2.5ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:5: syntax error, unexpected ',', expecting =>
+render :json => flight, :id, :flight_no, :origin, :destina
+                            ^):
+  
+app/views/flights/_flight.json.jbuilder:5: syntax error, unexpected ',', expecting =>
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140141259940'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:38:37 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (2.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/Sandy/wdi/projects/burning-airlines/ba-server/app/views/flights/_flight.json.jbuilder:5: syntax error, unexpected ',', expecting =>
+render:json => flight, :id, :flight_no, :origin, :destina
+                           ^):
+  
+app/views/flights/_flight.json.jbuilder:5: syntax error, unexpected ',', expecting =>
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140136248640'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:39:20 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (9.3ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:48:10 +1100
+Processing by FlightsController#index as JSON
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 29.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 21:48:20 +1100
+Processing by FlightsController#index as HTML
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 21:49:20 +1100
+Processing by FlightsController#index as HTML
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+Completed 200 OK in 40ms (Views: 33.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 21:50:39 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 219ms (Views: 211.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:50:46 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (2.8ms)
+  Rendered flights/index.json.jbuilder (4.7ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error ({:include=>:airplane} is not a symbol nor a string):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, :include => :airplane
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140170237000'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140170183780'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:50:58 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (12.5ms)
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.2ms)
+  Rendered flights/_flight.json.jbuilder (1.5ms)
+  Rendered flights/index.json.jbuilder (24.2ms)
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:51:54 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.1ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.7ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (13.9ms)
+Completed 200 OK in 24ms (Views: 21.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:53:40 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.0ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.2ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (11.5ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:54:06 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.7ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.8ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (12.1ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:55:01 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.4ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (12.4ms)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:55:34 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.1ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.2ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (12.7ms)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:59:42 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (3.2ms)
+  Rendered flights/index.json.jbuilder (5.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for :airplane:Symbol):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, :airplane.name
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140148082560'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140168472280'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 21:59:55 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (198.4ms)
+  Rendered flights/index.json.jbuilder (200.2ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `name' for #<#<Class:0x007f958f39b148>:0x007f958c5b9fe0>):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, :airplane => name
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140140439480'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140140849060'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 22:01:18 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (187.0ms)
+  Rendered flights/index.json.jbuilder (188.8ms)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `airplane' for #<#<Class:0x007f958f39b148>:0x007f95919514c8>
+Did you mean?  airplane_url):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, airplane
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140184562740'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140184663120'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 22:01:32 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (223.3ms)
+  Rendered flights/index.json.jbuilder (226.0ms)
+Completed 500 Internal Server Error in 235ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `airplane_name' for #<#<Class:0x007f958f39b148>:0x007f958d192998>
+Did you mean?  airplane_path
+               airplanes_path
+               airplane_url):
+    1: json.extract! flight, :id, :flight_no, :origin, :destination, :date, :airplane_id, :created_at, :updated_at, airplane_name
+    2: json.url flight_url(flight, format: :json)
+  
+app/views/flights/_flight.json.jbuilder:1:in `_app_views_flights__flight_json_jbuilder__3470398621128626385_70140184479480'
+app/views/flights/index.json.jbuilder:1:in `_app_views_flights_index_json_jbuilder___1128673238762080548_70140147057040'
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 22:01:45 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.8ms)
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.5ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (13.8ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 22:06:22 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (1.9ms)
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.3ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  [1m[36mCACHE Airplane Load (0.0ms)[0m  [1m[34mSELECT  "airplanes".* FROM "airplanes" WHERE "airplanes"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendered flights/_flight.json.jbuilder (2.1ms)
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/index.json.jbuilder (16.6ms)
+Completed 200 OK in 27ms (Views: 23.9ms | ActiveRecord: 0.5ms)
+
+
