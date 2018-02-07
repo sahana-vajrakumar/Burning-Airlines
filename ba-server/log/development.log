@@ -1109,3 +1109,865 @@ Completed 200 OK in 36ms (Views: 27.7ms | ActiveRecord: 0.6ms)
   [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" ORDER BY "users"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
   [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT  "reservations".* FROM "reservations" WHERE "reservations"."user_id" = ? ORDER BY "reservations"."id" ASC LIMIT ?[0m  [["user_id", 12], ["LIMIT", 1]]
   [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2018-02-06 16:33:18 +1100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 14ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users.json" for 127.0.0.1 at 2018-02-06 16:33:27 +1100
+Processing by UsersController#index as JSON
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  Rendered users/_user.json.jbuilder (1.0ms)
+  Rendered users/_user.json.jbuilder (0.3ms)
+  Rendered users/_user.json.jbuilder (0.5ms)
+  Rendered users/index.json.jbuilder (26.6ms)
+Completed 200 OK in 51ms (Views: 35.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-02-07 09:51:20 +1100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Sandy/.rvm/gems/ruby-2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 13ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 09:53:13 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 227ms (Views: 209.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:05:04 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (11.0ms)
+Completed 200 OK in 22ms (Views: 18.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:10:58 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.2ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:10:59 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (6.7ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:11:00 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.2ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:12:35 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.0ms)
+Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:13:40 +1100
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.5ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (23.8ms)
+Completed 200 OK in 55ms (Views: 35.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:02 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.3ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:04 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (6.9ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:19 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (7.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (13.6ms)
+Completed 200 OK in 23ms (Views: 14.0ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:21 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.5ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:21 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/index.json.jbuilder (6.5ms)
+Completed 200 OK in 17ms (Views: 14.5ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mAirplane Load (0.4ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 12]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 14]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "747"], ["row", 40], ["column", 4], ["created_at", "2018-02-06 23:14:35.657269"], ["updated_at", "2018-02-06 23:14:35.657269"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "A380"], ["row", 80], ["column", 4], ["created_at", "2018-02-06 23:14:35.660738"], ["updated_at", "2018-02-06 23:14:35.660738"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "A330"], ["row", 30], ["column", 4], ["created_at", "2018-02-06 23:14:35.663461"], ["updated_at", "2018-02-06 23:14:35.663461"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 13]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 14]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "SYD"], ["destination", "LAX"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:14:35.696847"], ["updated_at", "2018-02-06 23:14:35.696847"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "MEL"], ["destination", "SYD"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:14:35.701061"], ["updated_at", "2018-02-06 23:14:35.701061"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "SYD"], ["destination", "MEL"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:14:35.708126"], ["updated_at", "2018-02-06 23:14:35.708126"]]
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "ABA"], ["destination", "BCD"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:14:35.715085"], ["updated_at", "2018-02-06 23:14:35.715085"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (2.8ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 12]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 13]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 14]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Milo"], ["email", "milo@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:14:35.765684"], ["updated_at", "2018-02-06 23:14:35.765684"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Luke"], ["email", "luke@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:14:35.772996"], ["updated_at", "2018-02-06 23:14:35.772996"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Joel"], ["email", "joel@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:14:35.776985"], ["updated_at", "2018-02-06 23:14:35.776985"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 14]]
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 15]]
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 16]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 17]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 18]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 10], ["seat_column", "A"], ["created_at", "2018-02-06 23:14:35.866420"], ["updated_at", "2018-02-06 23:14:35.866420"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 20], ["seat_column", "B"], ["created_at", "2018-02-06 23:14:35.870492"], ["updated_at", "2018-02-06 23:14:35.870492"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 30], ["seat_column", "C"], ["created_at", "2018-02-06 23:14:35.873771"], ["updated_at", "2018-02-06 23:14:35.873771"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 30], ["seat_column", "D"], ["created_at", "2018-02-06 23:14:35.876802"], ["updated_at", "2018-02-06 23:14:35.876802"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 20], ["seat_column", "A"], ["created_at", "2018-02-06 23:14:35.880406"], ["updated_at", "2018-02-06 23:14:35.880406"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 10], ["seat_column", "B"], ["created_at", "2018-02-06 23:14:35.883371"], ["updated_at", "2018-02-06 23:14:35.883371"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (17.9ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 15], ["updated_at", "2018-02-06 23:14:35.908852"], ["id", 17]]
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 16], ["updated_at", "2018-02-06 23:14:35.949674"], ["id", 18]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 15], ["updated_at", "2018-02-06 23:14:35.958892"], ["id", 19]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 15], ["updated_at", "2018-02-06 23:14:35.965415"], ["id", 20]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 16], ["updated_at", "2018-02-06 23:14:35.969783"], ["id", 21]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 17], ["updated_at", "2018-02-06 23:14:35.974572"], ["id", 22]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 17], ["updated_at", "2018-02-06 23:14:35.977352"], ["id", 23]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 17], ["updated_at", "2018-02-06 23:14:35.982536"], ["id", 20]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 17], ["updated_at", "2018-02-06 23:14:35.985413"], ["id", 21]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 18], ["updated_at", "2018-02-06 23:14:35.993013"], ["id", 22]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 19], ["updated_at", "2018-02-06 23:14:35.996252"], ["id", 23]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 20], ["updated_at", "2018-02-06 23:14:35.999547"], ["id", 24]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:46 +1100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (2.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (22.4ms)
+Completed 200 OK in 44ms (Views: 31.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:14:59 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.1ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.3ms)
+Completed 200 OK in 19ms (Views: 16.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:16:15 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (6.8ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:16:29 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.5ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:17:37 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.0ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:21:44 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (6.5ms)
+Completed 200 OK in 21ms (Views: 14.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:23:55 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.9ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/index.json.jbuilder (7.1ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:24:14 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (7.4ms)
+Completed 200 OK in 17ms (Views: 14.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:28:27 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.5ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.1ms)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mAirplane Load (0.2ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "airplanes" WHERE "airplanes"."id" = ?[0m  [["id", 17]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "747"], ["row", 40], ["column", 4], ["created_at", "2018-02-06 23:30:56.260782"], ["updated_at", "2018-02-06 23:30:56.260782"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "A380"], ["row", 80], ["column", 4], ["created_at", "2018-02-06 23:30:56.269616"], ["updated_at", "2018-02-06 23:30:56.269616"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "airplanes" ("name", "row", "column", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "A330"], ["row", 30], ["column", 4], ["created_at", "2018-02-06 23:30:56.273007"], ["updated_at", "2018-02-06 23:30:56.273007"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mAirplane Load (0.1ms)[0m  [1m[34mSELECT "airplanes".* FROM "airplanes"[0m
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 17]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 18]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 19]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "flights" WHERE "flights"."id" = ?[0m  [["id", 20]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "SYD"], ["destination", "LAX"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:30:56.377727"], ["updated_at", "2018-02-06 23:30:56.377727"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "MEL"], ["destination", "SYD"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:30:56.382828"], ["updated_at", "2018-02-06 23:30:56.382828"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "SYD"], ["destination", "MEL"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:30:56.386254"], ["updated_at", "2018-02-06 23:30:56.386254"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "A2G126"], ["origin", "SYD"], ["destination", "MEL"], ["date", "2018-03-05 00:00:00"], ["created_at", "2018-02-06 23:30:56.390122"], ["updated_at", "2018-02-06 23:30:56.390122"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "flights" ("flight_no", "origin", "destination", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["flight_no", "123ABC"], ["origin", "ABA"], ["destination", "BCD"], ["date", "2018-02-06 00:00:00"], ["created_at", "2018-02-06 23:30:56.394863"], ["updated_at", "2018-02-06 23:30:56.394863"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 15]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 16]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 17]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Milo"], ["email", "milo@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:30:56.459754"], ["updated_at", "2018-02-06 23:30:56.459754"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Luke"], ["email", "luke@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:30:56.466916"], ["updated_at", "2018-02-06 23:30:56.466916"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Joel"], ["email", "joel@ga.com"], ["password", "chicken"], ["created_at", "2018-02-06 23:30:56.470387"], ["updated_at", "2018-02-06 23:30:56.470387"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 20]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 21]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (8.4ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 22]]
+  [1m[35m (13.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 23]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 24]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[31mDELETE FROM "reservations" WHERE "reservations"."id" = ?[0m  [["id", 25]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 10], ["seat_column", "A"], ["created_at", "2018-02-06 23:30:56.546641"], ["updated_at", "2018-02-06 23:30:56.546641"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 20], ["seat_column", "B"], ["created_at", "2018-02-06 23:30:56.551777"], ["updated_at", "2018-02-06 23:30:56.551777"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 30], ["seat_column", "C"], ["created_at", "2018-02-06 23:30:56.556527"], ["updated_at", "2018-02-06 23:30:56.556527"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 30], ["seat_column", "D"], ["created_at", "2018-02-06 23:30:56.560460"], ["updated_at", "2018-02-06 23:30:56.560460"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 20], ["seat_column", "A"], ["created_at", "2018-02-06 23:30:56.568629"], ["updated_at", "2018-02-06 23:30:56.568629"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "reservations" ("seat_row", "seat_column", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["seat_row", 10], ["seat_column", "B"], ["created_at", "2018-02-06 23:30:56.572890"], ["updated_at", "2018-02-06 23:30:56.572890"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mReservation Load (0.2ms)[0m  [1m[34mSELECT "reservations".* FROM "reservations"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 18], ["updated_at", "2018-02-06 23:30:56.594712"], ["id", 21]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 19], ["updated_at", "2018-02-06 23:30:56.601769"], ["id", 22]]
+  [1m[35m (15.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "flights" SET "airplane_id" = ?, "updated_at" = ? WHERE "flights"."id" = ?[0m  [["airplane_id", 18], ["updated_at", "2018-02-06 23:30:56.621375"], ["id", 24]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 18], ["updated_at", "2018-02-06 23:30:56.641423"], ["id", 26]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 19], ["updated_at", "2018-02-06 23:30:56.650090"], ["id", 27]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 20], ["updated_at", "2018-02-06 23:30:56.657166"], ["id", 28]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "user_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["user_id", 20], ["updated_at", "2018-02-06 23:30:56.660864"], ["id", 29]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 21], ["updated_at", "2018-02-06 23:30:56.670634"], ["id", 26]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 21], ["updated_at", "2018-02-06 23:30:56.673970"], ["id", 27]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 22], ["updated_at", "2018-02-06 23:30:56.677386"], ["id", 28]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 24], ["updated_at", "2018-02-06 23:30:56.681501"], ["id", 29]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "reservations" SET "flight_id" = ?, "updated_at" = ? WHERE "reservations"."id" = ?[0m  [["flight_id", 25], ["updated_at", "2018-02-06 23:30:56.685714"], ["id", 30]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:31:25 +1100
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.0ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (24.0ms)
+Completed 200 OK in 54ms (Views: 37.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:41:18 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (1.1ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (12.8ms)
+Completed 200 OK in 24ms (Views: 20.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 10:45:24 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (17.4ms)
+  Rendered flights/index.json.jbuilder (25.8ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights/13" for 127.0.0.1 at 2018-02-07 11:02:11 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+Completed 404 Not Found in 19ms (ActiveRecord: 0.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Flight with 'id'=13):
+  
+app/controllers/flights_controller.rb:67:in `set_flight'
+Started GET "/flights/14" for 127.0.0.1 at 2018-02-07 11:02:23 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+Completed 404 Not Found in 1ms (ActiveRecord: 0.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Flight with 'id'=14):
+  
+app/controllers/flights_controller.rb:67:in `set_flight'
+Started GET "/flights" for 127.0.0.1 at 2018-02-07 11:03:29 +1100
+Processing by FlightsController#index as HTML
+  Rendering flights/index.html.erb within layouts/application
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 207ms (Views: 203.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights/21" for 127.0.0.1 at 2018-02-07 11:03:32 +1100
+Processing by FlightsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT  "flights".* FROM "flights" WHERE "flights"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  Rendering flights/show.html.erb within layouts/application
+  Rendered flights/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:05:42 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.6ms)
+Completed 200 OK in 19ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:06:51 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/index.json.jbuilder (8.0ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:07:09 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/index.json.jbuilder (8.3ms)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:07:35 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.3ms)
+Completed 200 OK in 18ms (Views: 15.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:09:29 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.4ms)
+Completed 200 OK in 18ms (Views: 15.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:16:02 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (9.3ms)
+Completed 200 OK in 20ms (Views: 16.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:17:34 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (1.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (11.0ms)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:31:41 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.9ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (9.2ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:35:12 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/index.json.jbuilder (46.6ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:36:15 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (9.8ms)
+Completed 200 OK in 32ms (Views: 28.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:38:20 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.4ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (9.4ms)
+Completed 200 OK in 20ms (Views: 17.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:46:18 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.6ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (7.5ms)
+Completed 200 OK in 18ms (Views: 14.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:55:00 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (8.5ms)
+Completed 200 OK in 20ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:55:40 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/index.json.jbuilder (9.5ms)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:56:09 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/index.json.jbuilder (8.3ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 11:59:42 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.2ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.7ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/index.json.jbuilder (8.4ms)
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/flights.json" for 127.0.0.1 at 2018-02-07 12:08:51 +1100
+Processing by FlightsController#index as JSON
+  Rendering flights/index.json.jbuilder
+  [1m[36mFlight Load (0.3ms)[0m  [1m[34mSELECT "flights".* FROM "flights"[0m
+  Rendered flights/_flight.json.jbuilder (0.8ms)
+  Rendered flights/_flight.json.jbuilder (0.5ms)
+  Rendered flights/_flight.json.jbuilder (0.4ms)
+  Rendered flights/_flight.json.jbuilder (0.3ms)
+  Rendered flights/_flight.json.jbuilder (0.2ms)
+  Rendered flights/index.json.jbuilder (8.6ms)
+Completed 200 OK in 19ms (Views: 16.2ms | ActiveRecord: 0.3ms)
+
+
