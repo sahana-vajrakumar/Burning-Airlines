@@ -2,6 +2,10 @@ import React, {Component } from 'react';
 
 import { Link } from 'react-router-dom';
 
+const findPlane = function (planes, flight) {
+  console.log('in findPlane', planes.filter(plane => plane.id == flight.airplane_id)[0]);
+  return planes.filter(plane => plane.id == flight.airplane_id)[0];
+}
 
 class FlightList extends Component {
   constructor(props) {
@@ -33,7 +37,6 @@ class FlightList extends Component {
           )
         }
         )}
-
       </div>
     );
   }

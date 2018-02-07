@@ -44,9 +44,9 @@ r6 = Reservation.create seat_row:10, seat_column:'B'
 puts "Created #{ Reservation.all.length } reservations."
 
 
-a1.flights << f1
+a1.flights << f1 << f4
 a2.flights << f2
-a1.flights << f3
+a1.flights << f3 << f5
 
 u1.reservations << r1
 u2.reservations << r2

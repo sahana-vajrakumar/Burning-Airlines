@@ -12,25 +12,13 @@ module BaServer
     config.load_defaults 5.1
 
     config.middleware.insert_before 0, Rack::Cors do
-<<<<<<< HEAD
-    allow do
-      origins '*'
-      resource '*', :headers => :any, :methods => [:get, :post, :options]
-    end
-  end
 
-    # Settings in config/environments/* take precedence over those specified here.
-    # Application configuration should go into files in config/initializers
-    # -- all .rb files in that directory are automatically loaded.
-
-    
-=======
       allow do
         origins '*'
         resource '*', :headers => :any, :methods => [:get, :post, :options]
       end
     end
->>>>>>> f70afc8ca415fae13998a3950dd7ffe8457bc006
+
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
