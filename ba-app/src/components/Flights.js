@@ -11,8 +11,8 @@ class Flights extends Component{
   constructor(){
     super();
     this.state = {
-      flights: []
-
+      flights: [],
+      planes: []
 
     };
 
@@ -20,7 +20,20 @@ class Flights extends Component{
 
   }
 
+  getPlanes() {
+    console.log('getting planes');
+    axios.get('http://localhost:3000/airplanes.json').then(function (results){
+      const cleaned = results.data.reverse().map(row => {
+        delete row.created_at;
+        delete row.updated_at;
+        delete row.url;
 
+        return row;
+      });
+      console.log('CLEANED', cleaned);
+      this.setState({ planes: cleaned });
+    }.bind(this));
+  }
 
 
   showFlight( org,dest ){
@@ -43,7 +56,7 @@ class Flights extends Component{
         console.log(arr_flights);
       }.bind(this));
 
-
+      this.getPlanes();
     }
 
 
@@ -52,11 +65,12 @@ class Flights extends Component{
 
 
   render(){
+    console.log('STATE', this.state);
     return(
       <div>
         <h2>Search your flight</h2>
         <FlightSearch onSubmit= {this.showFlight}/>
-        <FlightList flights_all={ this.state.flights } />
+        <FlightList flights_all={ this.state.flights } planes_all={ this.state.planes } />
         {/* <List list={ this.state.flights}/> */}
 
       </div>
