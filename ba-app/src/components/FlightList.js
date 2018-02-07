@@ -1,5 +1,7 @@
 import React, {Component } from 'react';
 
+import { Link } from 'react-router-dom';
+
 class FlightList extends Component {
   constructor(props) {
     super(props);
@@ -20,8 +22,8 @@ class FlightList extends Component {
 
 
 
-          <p>{s.origin} to {s.destination} on {s.date}  Flight Number:{s.flight_no}</p>
-          
+          <p>{s.origin} to {s.destination} on {s.date} <Link to= {s.flight_no}>{s.flight_no}</Link></p>
+
           <input type = "submit" value="Book Now!" />
 
           </div>

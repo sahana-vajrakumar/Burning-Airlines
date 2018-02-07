@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import Flights from './Flights'
+import Home from './Home'
+// import Flights from './Flights'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Flights />
+        <Home />
+        {/* <Flights /> */}
 
       </div>
     );
