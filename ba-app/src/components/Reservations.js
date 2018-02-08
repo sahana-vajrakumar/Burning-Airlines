@@ -1,17 +1,34 @@
 import React, {Component} from 'react';
 import axios from 'axios';
+import SeatsTaken from './SeatsTaken'
 // import FlightSearch from './FlightSearch'
 // import FlightList from './FlightList'
 // import List from './List'
-import SeatsTaken from './SeatsTaken'
+// import SeatsTaken from './SeatsTaken'
 
 
 
 
 
 
+const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
 
+function Seat(props){
+  return <span className="seat">{ props.data.seat }</span>;
+}
 
+function Row(props){
+  return (
+    <div>
+      { props.seats.map( seat => <Seat data={seat} />) }
+      <br />
+    </div>
+  );
+}
+
+function Diagram(props){
+  return props.seats.map( row =>  <Row seats={row}/> );
+};
 
 class Reservations extends Component{
 
@@ -19,16 +36,14 @@ class Reservations extends Component{
     super();
     this.state = {
       reservations: [],
-      occupied: ''
+      occupied: '',
+      availableSeats: []
 
 
     };
 
      this.getReservation = this.getReservation.bind(this);
-
-     this.getReservation();
-
-
+     this.createSeatGrid = this.createSeatGrid.bind(this);
 
   }
 
@@ -36,8 +51,23 @@ class Reservations extends Component{
 
 
 
+  createSeatGrid(rows, cols) {
+    let seats = [];
+    for(let i=0; i < rows; i++) {
+      seats[i] = [];
+      for(let j=0; j < cols; j++) {
+        // Check for a matching reservation for seat I:J
+        //   seats.push(  <Seat row={i} col={j} status={????} />  );
 
+        // this.state.reservations includes this row+col i,j
 
+        seats[i].push({ seat: `${i+1}${letters[j]}`, available: true });
+
+      }
+    }
+
+    this.setState({ availableSeats: seats });
+  }
 
   getReservation() {
     let arr_flights = [];
@@ -60,26 +90,21 @@ class Reservations extends Component{
       this.setState({reservations : filtered});
       this.setState({occupied : filtered.length});
 
+      const { plane } = this.props.location.state;
+      this.createSeatGrid(plane.row, plane.column);
+
     }.bind(this));
   }
 
+
+
   componentWillMount(){
-    const { plane, flight } = this.props.location.state;
-
-    const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
-
-    const createSeatGrid = function(rows, cols) {
-      let seats = [];
-      for(let i=0; i < rows; i++) {
-        for(let j=0; j < cols; j++) {
-          seats.push({ seat: `${i+1}${letters[j]}`, available: true });
-        }
-      }
-      return seats;
-    }
 
 
-  console.log('Result' , createSeatGrid(plane.row, plane.cols));
+   this.getReservation();
+
+
+    //console.log('SEATS:', this.state.availableSeats);
 }
 
 
@@ -96,12 +121,15 @@ class Reservations extends Component{
     const { plane, flight } = this.props.location.state;
     console.log('PLANE ROW', plane.row * plane.column);
     console.log('FLight ID', flight.id);
+    console.log('SEATS:', this.state.availableSeats);
     return(
       <div>
         <h1>Reservations</h1>
         <p>Total Number of Seats on this plane: {(plane.row * plane.column)}</p>
         <p>Number of Seats Available: {(plane.row * plane.column) - this.state.occupied}</p>
-        <SeatsTaken res_all={ this.state.reservations } />
+
+        <Diagram seats={ this.state.availableSeats }  />
+        <SeatsTaken res_all={this.state.reservations} />
 
       </div>
 
