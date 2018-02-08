@@ -9,6 +9,7 @@ class Home extends Component {
 
         return(
         <div>
+          
             <h2>This is the home page</h2>
             <ul>
                 <li>Go <Link to="/flights">Flight Search</Link></li>
