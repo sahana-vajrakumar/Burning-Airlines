@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const findPlane = function (planes, flight) {
   console.log('in findPlane', planes.filter(plane => plane.id == flight.airplane_id)[0]);
+
   return planes.filter(plane => plane.id == flight.airplane_id)[0];
 }
 
@@ -27,11 +28,11 @@ class FlightList extends Component {
           return (
               <div>
                 <p>
-                  {s.origin} to {s.destination} on {s.date} on plane {plane.name}
+                  ORIGIN: {s.origin} to DESTINATION: {s.destination} on  {s.date} on PLANE:{ plane.name}
                   <Link to={{
                    pathname: url,
                    state: { flight: s, plane: plane}
-                 }}>Flight {s.id}</Link>
+                 }}>Flight: {s.id}</Link>
                 </p>
               </div>
           )

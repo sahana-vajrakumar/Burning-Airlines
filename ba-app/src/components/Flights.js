@@ -23,6 +23,7 @@ class Flights extends Component{
   getPlanes() {
     console.log('getting planes');
     axios.get('http://localhost:3000/airplanes.json').then(function (results){
+
       const cleaned = results.data.reverse().map(row => {
         delete row.created_at;
         delete row.updated_at;
@@ -48,12 +49,13 @@ class Flights extends Component{
           return row;
         })
         console.log(results);
-        let arr_flights = [];
-        for (let i =0;i<results.data.length;i++)
-          if (results.data[i].origin === org && results.data[i].destination === dest)
-            arr_flights.push(results.data[i]);
-        this.setState({flights : arr_flights});
-        console.log(arr_flights);
+        // let arr_flights = [];
+        // for (let i =0;i<results.data.length;i++)
+        //   if (results.data[i].origin === org && results.data[i].destination === dest)
+        //     arr_flights.push(results.data[i]);
+        const filterd = results.data.filter(elem => elem.origin === org && elem.destination === dest)
+        this.setState({flights : filterd});
+        // console.log(arr_flights);
       }.bind(this));
 
       this.getPlanes();

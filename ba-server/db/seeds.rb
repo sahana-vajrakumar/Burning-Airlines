@@ -39,6 +39,15 @@ r3 = Reservation.create seat_row:30, seat_column:'C'
 r4 = Reservation.create seat_row:30, seat_column:'D'
 r5 = Reservation.create seat_row:20, seat_column:'A'
 r6 = Reservation.create seat_row:10, seat_column:'B'
+r7 = Reservation.create seat_row:11, seat_column:'B'
+r8 = Reservation.create seat_row:12, seat_column:'B'
+r9 = Reservation.create seat_row:13, seat_column:'F'
+r10 = Reservation.create seat_row:14, seat_column:'C'
+r11 = Reservation.create seat_row:15, seat_column:'E'
+r12 = Reservation.create seat_row:18, seat_column:'K'
+r13 = Reservation.create seat_row:32, seat_column:'I'
+r14 = Reservation.create seat_row:33, seat_column:'A'
+r15 = Reservation.create seat_row:31, seat_column:'B'
 
 
 puts "Created #{ Reservation.all.length } reservations."
@@ -54,6 +63,6 @@ u3.reservations << r3 << r4
 
 
 f1.reservations << r1 << r2
-f2.reservations << r3
-f3.reservations << r4
-f4.reservations << r5
+f2.reservations << r3 << r6 << r10 << r12 << r14
+f3.reservations << r4 << r7 << r8 << r13
+f4.reservations << r5 << r9 << r11
